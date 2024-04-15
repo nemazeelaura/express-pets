@@ -3,6 +3,9 @@
     "start": "node db.js",
     "dev": "nodemon db.js"
   },
+  "engines": {
+    "node": ">=21.7.1 <21.7.31"
+  },
   "dependencies": {
     "cloudinary": "^1.41.0",
     "cookie-parser": "^1.4.6",
